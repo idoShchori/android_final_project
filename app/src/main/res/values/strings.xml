@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">KeepInShape</string>
+    <string name="log_In">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="back">Back</string>
+
+
+    <string name="m24">M24</string>
+    <string name="m4">M4</string>
+    <string name="mrad">Mrad</string>
+    <string name="hs">HS Precision</string>
+    <string name="glock">Glock 19C</string>
+    <string name="baror">Bar or run</string>
+    <string name="soldierpt">Soldier fully loaded run</string>
+
+    <string name="lr">Long Range Sniper</string>
+    <string name="mr">Medium Range Sniper</string>
+    <string name="ctr">Counter Terror Sniper</string>
+    <string name="bne">Breach and Entry </string>
+
+
+    <string name="Hello">Hello!</string>
+    <string name="user_name">user name</string>
+    <string name="password">password</string>
+    <string name="rememberme">remember me</string>
+    <string name="phone">phone</string>
+    <string name="Email">Email</string>
+    <string name="male">Male</string>
+    <string name="Calendar"> Calendar</string>
+    <string name="MyExercises"> My Exercises</string>
+
+    <string name="WorkOut"> WorkOut</string>
+    <string name="make_Exercise"> Make new exercise</string>
+    <string name="follow_Exercise"> Follow exercise</string>
+
+    <string name="ex_type"> Exercise Type</string>
+    <string name="weapon"> Weapon</string>
+    <string name="distance"> Distance</string>
+    <string name="ammoAmount"> Ammo Quantity</string>
+    <string name="ex_date"> Date</string>
+
+    <string name="exist_account">  Log in</string>
+    <string name="Practice">Practice </string>
+    <string name="follow">making new session </string>
+    <string name="Date">Date</string>
+    <string name="Time">Time</string>
+    <string name="Save">Save</string>
+    <string-array name="users_arrays"></string-array>
+
+    <string name="user_id">user</string>
+    <string name="sniper">Sniper</string>
+    <string name="soldier">Soldier</string>
+    <string name="counter_Terror">Counter Terror</string>
+</resources>

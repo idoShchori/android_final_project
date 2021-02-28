@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="20dp"
+    android:elevation="6dp"
+    app:cardElevation="6dp"
+    android:layoutDirection="rtl"
+    android:background="@drawable/ic_background"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#70F2EFF8"
+        android:textDirection="rtl">
+        <TextView
+            android:id="@+id/exe_LBL_type"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="12dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/exe_LBL_range"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/exe_LBL_type"
+            android:layout_alignStart="@id/exe_LBL_type"
+            android:layout_marginTop="4dp"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/exe_weapon_IMG"
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="15dp"
+            android:ellipsize="middle"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/exe_LBL_ammo"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/exe_LBL_range"
+            android:layout_alignStart="@id/exe_LBL_type"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="12dp"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/exe_LBL_date"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/exe_LBL_ammo"
+            android:layout_alignStart="@id/exe_LBL_type"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="12dp"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/exe_LBL_time"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/exe_LBL_date"
+            android:layout_alignStart="@id/exe_LBL_type"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="12dp"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/exe_LBL_hits"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/exe_LBL_time"
+            android:layout_alignStart="@id/exe_LBL_type"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="12dp"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/exercise_BTN_delete"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            app:icon="@drawable/ic_background"
+            app:iconSize="30dp"
+            app:iconTint="#FD0606"
+            app:iconGravity="textStart" />
+
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

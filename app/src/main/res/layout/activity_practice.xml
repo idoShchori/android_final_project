@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    tools:context=".PracticeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp">
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_marginRight="2dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/soldier_IMBTN_exercise"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/soldier_photo"
+                        />
+//
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/soldier"
+                        android:textColor="@color/textcolor"
+                        android:textSize="30dp" />
+                    <ImageButton
+                        android:id="@+id/ct_IMBTN_exercise"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/ct_photo" />
+//
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/counter_Terror"
+                        android:textColor="@color/textcolor"
+                        android:textSize="30dp" />
+
+                </LinearLayout>
+
+                <LinearLayout android:orientation="vertical">
+
+                    <ImageButton
+                       android:id="@+id/sniper_IMBTN_exercise"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/sniper_photo"/>
+//
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/sniper"
+                        android:textColor="@color/textcolor"
+                        android:textSize="30dp" />
+
+
+                </LinearLayout>
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/workout_BTN_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="180dp"
+            android:text="@string/back"
+            android:textColor="@color/textcolor"
+            app:cornerRadius="20dp">
+
+        </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

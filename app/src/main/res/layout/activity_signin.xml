@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:shadowColor="@color/textcolor"
+            android:shadowRadius="10"
+            android:text="@string/sign_up"
+            android:textColor="@color/textcolor"
+            android:textSize="50sp"
+            android:layout_marginBottom="30dp">
+        </TextView>
+
+
+        <EditText
+            android:id="@+id/singup_EDT_username"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/textcolor"
+            android:digits="qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM1234567890"
+            android:drawableLeft="@drawable/ic_username"
+            android:drawablePadding="8dp"
+            android:hint="@string/user_name"
+            android:inputType="text"
+
+            >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/singup_EDT_password"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/textcolor"
+            android:hint="password"
+            android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/singup_EDT_userEmail"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/textcolor"
+            android:hint="Email"
+            android:inputType="text"/>
+
+
+        <Button
+            android:id="@+id/singup_BTN_singin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/singup_EDT_userEmail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/ic_clear"
+            android:text="@string/sign_up"
+            android:textColor="@color/textcolor"
+            android:textSize="30sp">
+        </Button>
+
+        <Button
+            android:id="@+id/singin_BTN_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/singup_BTN_singin"
+            android:background="@drawable/ic_clear"
+            android:text="back"
+            android:textColor="@color/textcolor"
+            android:textSize="20sp">
+        </Button>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
